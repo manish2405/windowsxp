@@ -4,36 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>MY PC</title>
+    <title>Opening Window</title>
     <link rel="stylesheet" href="css/stylesheet.css">
 </head>
-<body id="desktop">
-    <div class="mycomputer" id="mydcomp" >
-            <a ondblclick="document.location='file:///C:/wamp/www/mypc/newtb.html'" title="My Computer">
-            <img class="mycomp" src="img/mycompicon.png" alt="My Computer" ><p> My Computer</p>
-        </a>
-    </span>
-    </div>    
-
-    <div class="calculator" id="calc">
-        <img class="mycalc" src="img/Calculator.png" alt="calculator"><p>Calculator</p>
-      
-    </div>
-
-<script>
-
-    var newwindow;
-    function openwin(){
-        newwindow = window.open("file:///C:/wamp/www/mypc/calc.html", "_black", "width=350, height=280");
-    }
-
-    function focuswin(){
-        newwindow.focus();
-    }
+<body id="winload">
     
-    document.getElementById("calc").addEventListener("dblclick", openwin);
 
+    <script>
     
-</script>
+    window.onload = function(){
+   setInterval(function(){
+       window.location='file:///C:/wamp/www/mypc/afterload.html';
+   },8000);
+};
+    </script>
 </body>
 </html>
