@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Log On</title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+</head>
+<body id="logon">
+    <header class="header"></header>
+    <div class="row">
+      <div class="loglft">
+        <img src="img/winxplogo.png" alt="windows logo">
+            <p>To Begin, Click Your User Name</p>
+      </div>
+     <div class="logryt">
+         
+         <img class="myimg" src="img/manishimg.jpg" alt="manish image">
+       <h3>Manish Verma</h3>
+        
+        <form action="" method="POST" class="logforms"  id="logform" name="logforms">
+          Type Your password<br>
+           <input type="password" class="pass" name="pswd">
+            <input type="button" class="bttn" onclick="check(this.form)" value="GO">
+            
+        </form>
+        <a onclick="document.logforms.pswd.value='qwerty'" >forget password?</a>
+     </div>
+    </div>
+    <footer class="footer"></footer>
+
+    <script>
+
+function check(form) {
+                if(form.pswd.value == "qwerty") {
+                    window.open("file:///C:/wamp/www/mypc/index.html", "_self");
+                }
+                else {
+                    alert("Error Password")
+                }
+            }
+
+
+
+    </script>
+</body>
+</html>

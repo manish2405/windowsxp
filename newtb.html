@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Computer</title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+</head>
+<body id="openmycomp">
+    <aside class="lftside">
+    
+    </aside>
+    <div class="container">
+            <div class="aside">
+            
+            </div>
+    <div class="mainlocal">            
+    <div class="localc" title="Local Disk">
+        <a href="#" ondblclick="sound.play()">
+        <img src="img/localdisk.png"><p>Local Disk (C) </p>
+        </a>
+    </div><hr>
+    <div class="locald" title="Local Disk">
+            <a href="#" ondblclick="sound.play()">
+            <img src="img/localdisk.png"><p>Local Disk (D)</p>
+            </a>
+        </div><hr>
+    <div class="floppy" title="Floppy Disk">
+            <a href="#" ondblclick="sound.play()">
+            <img src="img/floppyicon.png"><p>Floppy Disk (A)</p>
+            </a>
+        </div>
+    </div>
+    </div>
+    <script>
+    var sound = new Audio();
+    sound.src = "audio/Click.mp3";
+    </script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Loading Window</title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+</head>
+<body id="afterload">
+    
+    <header class="aftloadheader"></header>
+    <div class="xplogo">
+    <img src="img/winxplogo.png" alt="window xp logo">
+    </div>
+    <footer class="aftloadfooter"></footer>
+
+    <script>
+   
+     
+    window.onload = function(){
+        setInterval(() => {
+            window.location='file:///C:/wamp/www/mypc/adminlogon.html';
+        }, 6000);
+    }
+    </script>
+</body>
+</html>

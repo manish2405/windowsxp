@@ -1,0 +1,294 @@
+body#desktop{
+    background-image: url(../img/windows_xp_bliss.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+img.mycomp{
+    width: 60px;
+}
+.mycomputer{
+    width: 90px;
+    padding: 0px;
+    border: 2px;
+}
+.mycomputer:hover{
+    width: 90px;
+    padding: 0px;
+    border: 2px;
+    background-color: rgba(52, 107, 189, 0.651);
+    border-radius: 5px;   
+}
+.mycomputer a{
+    text-decoration: none;
+    cursor: default;
+}
+.mycomputer p{
+    color: aliceblue;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman',;
+}
+div.mycomputer span{
+    color: white;
+    text-decoration: none;
+}
+body#openmycomp{
+    background-color: white;
+}
+
+div.container{
+    display: flex;
+}
+.container.aside{
+    display: flex;
+    flex-direction: column;
+}
+div.aside{
+    background-color: rgb(37, 111, 196);
+    width: 20%;
+    height: 650px;
+}
+.container.mainlocal{
+    display: flex;
+    padding: 20px;
+    flex-direction: row wrap;
+}
+.mainlocal img{
+    width: 60px;
+}
+div.localc{
+    width: 150px;
+    cursor: default;
+    margin: 5px;
+    text-align: center;
+    padding: 5px;
+    border: 1px;
+}
+.localc a{
+    text-decoration: none;
+    color: black;
+}
+div.localc:hover{
+    width: 150px;
+    margin: 5px;
+    cursor: default;
+    text-align: center;
+    padding: 5px;
+    border: 1px;
+    background-color: rgba(123, 135, 150, 0.466);
+}
+
+.locald a{
+    text-decoration: none;
+    color: black;
+}
+div.locald{
+    width: 150px;
+    margin: 5px;
+    cursor: default;
+    text-align: center;
+    padding: 5px;
+    border: 1px;
+}
+div.locald:hover{
+    width: 150px;
+    margin: 5px;
+    cursor: default;
+    text-align: center;
+    padding: 5px;
+    border: 1px;
+    background-color: rgba(123, 135, 150, 0.466);
+}
+
+.floppy a{
+    text-decoration: none;
+    color: black;
+}
+div.floppy{
+    width: 150px;
+    margin: 5px;
+    cursor: default;
+    text-align: center;
+    padding: 5px;
+    border: 1px;
+}
+div.floppy:hover{
+    width: 150px;
+    margin: 5px;
+    cursor: default;
+    text-align: center;
+    padding: 5px;
+    border: 1px;
+    background-color: rgba(123, 135, 150, 0.466);
+}
+img.mycalc{
+    width: 60px;
+}
+.calculator{
+    width: 90px;
+    padding: 0px;
+    border: 2px;
+}
+.calculator:hover{
+    width: 90px;
+    padding: 0px;
+    border: 2px;
+    background-color: rgba(52, 107, 189, 0.651);
+    border-radius: 5px;   
+}
+.calculator a{
+    text-decoration: none;
+    cursor: default;
+}
+.calculator p{
+    color: aliceblue;
+    cursor: default;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman',;
+}
+body#calculator{
+    background-color: rgb(59, 114, 187);
+}
+
+#calculator .main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  
+  }
+  #calculator .textview{
+      width: 250px;
+      height: 30px;
+      background-color:  rgb(122, 120, 120);
+      color: aliceblue;
+      text-align: right;
+      font-size: 29px;
+      font-family:  'Tahoma', Geneva ;
+      box-shadow: 1px 1px 2px 2px black;
+  }
+  #calculator table{
+      border: 1px solid rgb(53, 50, 50) ;
+      padding: 14px;
+      background-color: rgba(99, 95, 95, 0.705);
+      width: 50px;
+      box-shadow: 1px 1px 1px 1px rgb(83, 72, 72);
+  }
+  #calculator table td{
+      border: 1px solid rgb(44, 42, 42);
+      
+  }
+  
+  #calculator td{
+      padding: 5px;
+      width: 25px;
+  }
+  #calculator .button{
+      width: 30;
+      height: 30;
+      font-size: 20px;
+      text-align: center;
+      font-family: 'Times New Roman', Times, serif;
+      text-shadow: 1.5px 1px grey;
+      box-shadow: 2px 2px 3px 3px rgba(32, 31, 31, 0.589);
+      cursor: pointer;
+      background-color: rgba(211, 197, 197, 0.74);
+  }
+  body#winload{
+      background-image: url(../img/winload.gif);
+      background-position: center;
+      background-color: black;
+      background-repeat: no-repeat;
+      background-position-x: 500px;
+      background-position-y: 180px;
+    }
+
+  body#afterload{
+     
+      background-color: rgb(40, 129, 231);
+  } 
+  div.xplogo{
+      text-align: center;
+    }
+   .xplogo img{
+       width: 400px;
+       padding: 110px;
+   }
+
+  header.aftloadheader{
+    height: 95px;
+    background-color: rgb(19, 58, 167);
+}
+footer.aftloadfooter{
+    height: 95px;
+    background-color: rgb(19, 58, 167);
+}
+
+  body#logon{
+      background-color: rgb(40, 129, 231);
+  }
+  header.header{
+      height: 90px;
+      background-color: rgb(19, 58, 167);
+  }
+  footer.footer{
+      height: 90px;
+      background-color: rgb(19, 58, 167);
+  }
+  .row{
+      display: flex;
+      justify-content: center;
+      padding: 100px;
+  }
+  div.loglft{
+      border: 2px;
+      margin: 25px;
+  }
+  div.loglft p{
+      color: white;
+      text-shadow: 1px 1px black;
+  }
+  div.logryt{
+      border: 2px;
+      margin: 25px;
+
+  }
+  .loglft img{
+      width: 200px;
+  }
+.pass{
+    width: 160px;
+    height: 20px;
+    border-radius: 7px 7px;
+    margin: 10px; 
+    font-size: 30px;
+    box-shadow: 2px 2px 5px black;
+}
+.logryt h3{
+    color: rgb(243, 235, 235);
+    text-shadow: 1px 1px black;
+}
+
+.logryt img.myimg{
+    width: 70px;
+    border: 2px solid rgb(37, 37, 87);
+    border-radius: 5px 5px;
+    box-shadow: 3px 3px 5px rgb(27, 27, 27);
+}
+form.logforms{
+    color: rgb(207, 207, 235);
+    text-shadow: 1px 1px black;
+}
+.bttn{
+    font-size: 15px;
+    width: 40px;
+    height: 40px;
+    color: rgb(221, 221, 230);
+    background-image: linear-gradient(green, rgb(220, 233, 37));
+    border-radius: 100%;
+    text-shadow: 1px 1px rgb(7, 7, 7);
+    box-shadow: 2px 2px 5px black;
+}
+div.logryt a{
+    color: rgb(7, 7, 109);
+    cursor: pointer;
+}
